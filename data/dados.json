@@ -1,0 +1,73 @@
+[
+  {
+    "id": 12345,
+    "nome": "Logitech g204",
+    "fabricante": "Logitech",
+    "valor": 100,
+    "quantidade": 5,
+    "descricao": "Mouse bom",
+    "imgProd": "/uploads/1726507885977.jpeg",
+    "curtidas": 0,
+    "anoLanca": "2000"
+  },
+  {
+    "id": 1726511334103,
+    "nome": "Monitor 144hz",
+    "fabricante": "Mancer",
+    "anoLanca": "2017",
+    "valor": 12,
+    "quantidade": 21,
+    "descricao": "1225.89",
+    "imgProd": "/uploads/1726511334101.jpeg"
+  },
+  {
+    "id": 1726511373395,
+    "nome": "Mouse g203",
+    "fabricante": "Logitech",
+    "anoLanca": "2017-03-10",
+    "valor": 299.99,
+    "quantidade": 23,
+    "descricao": "Um mouse bom",
+    "imgProd": "/uploads/1726511373394.jpeg"
+  },
+  {
+    "id": 1726593177577,
+    "nome": "logitech g815",
+    "fabricante": "Logitech",
+    "anoLanca": "2019",
+    "valor": 480.99,
+    "quantidade": 59,
+    "descricao": "Teclado mecânico 100%",
+    "imgProd": "/uploads/1726593177575.webp"
+  },
+  {
+    "id": 1726593216860,
+    "nome": "Teclado mecânico 60%",
+    "fabricante": "Machinike",
+    "anoLanca": "2022",
+    "valor": 267.89,
+    "quantidade": 60,
+    "descricao": "Teclado 60%",
+    "imgProd": "/uploads/1726593216859.webp"
+  },
+  {
+    "id": 1726593262550,
+    "nome": "Xbox Series X",
+    "fabricante": "Microsoft",
+    "anoLanca": "2022",
+    "valor": 4899.99,
+    "quantidade": 23,
+    "descricao": "Console de ultima geração da linha Xbox",
+    "imgProd": "/uploads/1726593262549.jpg"
+  },
+  {
+    "id": 1726593327662,
+    "nome": "Razer DeathAdder",
+    "fabricante": "Razer",
+    "anoLanca": "2024",
+    "valor": 69.88,
+    "quantidade": 12,
+    "descricao": "Mouse da Razer",
+    "imgProd": "/uploads/1726593327660.webp"
+  }
+]

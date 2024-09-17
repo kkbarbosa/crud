@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Editar Produto</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+
+    <body>
+        <header class="bg-warning text-center py-5">
+            <p>Editrar Produto</p>
+            <a href="listar.html" class="nav-link active" aria-current="page">Voltar</a>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>
+            <div class="container-fluid">
+                <a href="index.html"><img src="imgs/logo.png" alt="lgo" height="40"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="py-5 main-light bg-light">
+            <section class="py-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <h2 class="text-center mb-4">Editar Produto</h2>
+                            <form action="#" method="post" name="editar_produto" id="editar_produto" enctype="multipart/form-data">
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label">Nome:</label>
+                                    <input type="hidden" name="id_edit" id="id_edit">
+                                    <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome do Produto">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="fabricante" class="form-label">Fabricante:</label>
+                                    <input class="form-control" type="text" name="fabricante" id="fabricante" placeholder="Nome do Fabricante">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="anoLanca" class="form-label">Ano de lançamento:</label>
+                                    <input class="form-control" type="number" name="anoLanca" id="anoLanca" placeholder="Data de Fabricação" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="valor" class="form-label">Valor:</label>
+                                    <input class="form-control" type="number" name="valor" id="valor" step="0.01" placeholder="Valor do Produto">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="msg" class="form-label">Quantidade:</label>
+                                    <input class="form-control" type="number" name="qtde" id="qtde" placeholder="Informe a Quantidade">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="descricao" class="form-label">Descrição:</label>
+                                    <input class="form-control" type="text" name="descricao" id="descricao" placeholder="Descrição do Produto" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="img" class="form-label">Atualizar Imagem do Produto:</label>
+                                    <input class="form-control" type="file" name="img_prod" id="img_prod" accept="image/*">
+                                </div>
+                                <div class="text-center">
+                                    <input class="btn btn-success" type="submit" name="salvar" id="salvar" value="Salvar">
+                                </div>
+                            </form>
+                  </div>
+                </div>
+            </section>
+            <section class="text-center py-5">
+                <div class="container">
+                    <h2>Exemplo de LandPage utilizando Bootstrap</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-dark text-white text-center py-4">
+            <div class="container" style="margin: 0 auto;">
+                <p> &copy; 2024 Sistema CRUD. Todos os direitos Reservados. </p>
+                <p> Arthur Correa Benevides Barbosa</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item">  
+                        <a href="#" class="text-white-50"> Política de Privaciade </a>
+                    </li>
+                    <li class="list-inline-item"> 
+                        <a href="#" class="text-white-50"> Termos de Uso </a>
+                    </li>
+                </ul>
+                <div class="social-icons mt-3">
+                    <a href="#" target="_blank" class="text-white-50 me-2"><i class="bi bi-instagram"></i></a>
+                    <a href="https://github.com/kkbarbosa" target="_blank" class="text-white-50 me-2"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/arthur-correa-3b148a325/" target="_blank" class="text-white-50 me-2"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script src="js/editar.js"></script>
+    </body>
+</html>
